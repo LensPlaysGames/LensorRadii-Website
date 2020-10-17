@@ -6,6 +6,10 @@
     background: linear-gradient(180deg, rgb(98, 107, 115) 0%, rgb(56, 62, 72) 100%);
 }
 
+.gradient-vert-bright {
+    background: linear-gradient(180deg, rgb(200, 209, 217) 0%, rgb(160, 169, 177) 100%);
+}
+
 .gradient-vert-dark {
     background: linear-gradient(180deg, rgb(56, 62, 72) 50%, rgb(33, 33, 33) 100%);
 }
