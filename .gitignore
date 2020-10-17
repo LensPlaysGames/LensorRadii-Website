@@ -1,0 +1,5 @@
+# Visual Studio Crap
+*.sln
+*.suo
+*.phpproj
+/.vs
