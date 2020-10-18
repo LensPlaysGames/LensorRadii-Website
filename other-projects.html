@@ -1,0 +1,145 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="url" content="https://lensor-radii.netlify.app/other-projects.html" />
+        <title>Lensor Radii - Other Projects</title>
+        <meta name="description" content="A Look at Lens' Other Hobbies and Projects" />
+        <meta name="og:url" content="https://lensor-radii.netlify.app/other-projects.html" />
+        <meta name="og:type" content="website" />
+        <meta property="og:title" content="Lensor Radii - Other Projects" />
+        <meta name="og:description" content="A Look at Lens' Other Hobbies and Projects" />
+        <meta name="og:image" content="https://lensor-radii.netlify.app/img/lens-high.jpg" />
+        <meta property="twitter:url" content="https://lensor-radii.netlify.app/other-projects.html" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta property="twitter:title" content="Lensor Radii - Other Projects" />
+        <meta name="twitter:description" content="A Look at Lens' Other Hobbies and Projects" />
+        <meta name="twitter:image" content="https://lensor-radii.netlify.app/img/lens-high.jpg" />
+        <link rel="canonical" href="https://lensor-radii.netlify.app/other-projects.html" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="/style.css" />
+        <link rel="icon" href="/favicon.ico" />
+    </head>
+    <body class="gradient-side-dark">
+        <!--NAVBAR-->
+        <div class="container-fluid px-0">
+            <nav class="navbar navbar-expand-md bg-dark">
+                <h1><a class="navbar-brand badge badge-secondary gradient-side text-white" href="/"><img src="/favicon.png" alt="Lensor Radii Logo -- Plain Orange Circle" width="32" height="32"/> Lensor Radii</a></h1>    
+                <button class="navbar-toggler bg-light navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>  
+                <div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="btn btn-dark"><a class="nav-link text-light h4" href="/" target="_self">Home</a></div>
+                            <div class="btn btn-dark"><a class="nav-link text-light h4" href="/epk.html" target="_self">Electronic Press Kit</a></div>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <div class="btn btn-dark"><a class="nav-link text-light h4" href="/about-lens.html" target="_self">About Lens</a></div>
+                            <div class="btn btn-dark"><a class="nav-link text-light h4" href="/other-projects.html" target="_self">Other Projects</a></div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!--CONTENT-->
+        <div class="container text-white">
+            <div class="row jumbotron gradient-diag m-0 mb-3 p-3 text-center">
+                <h2 class="col pl-4 pt-0 mt-0 text-left">Binary Coded Decimal LED Counter</h2>
+                <div class="col-lg-12 my-3 mx-auto">
+                    Count from 0 to 9 with the click of a button!<br />
+                    <div class="col card w-nomin gradient-diag-bright text-body my-2">
+                        <div class="card-header"><img class="img-fluid pic-md-h shadow" src="/img/BCD-Counter-LEDs-sm.jpg" alt="One of Four Green LEDs lit up; the rightmost one. Shows Example of Circuit in Action" /></div>
+                        <div class="card-body p-2"><cite><small>A One in the Output LEDs</small></cite></div>
+                    </div>
+                </div>
+                <span class="jumbotron w-100 gradient-diag-light text-left text-body py-2 my-3">Great project for learning wiring, testing a breadboard, or getting familiar with counting in binary! <br />
+                We'll be using a 7490 IC to Increment our Count, a 555 timer to debounce our button, and 4 LEDs to display our output!</span>
+                <div class="col card gradient-diag-dark m-0 p-3">
+                    <div class="badge badge-secondary mb-3"><h3 class="text-white">Materials</h3></div>
+                    <table class="table table-dark table-striped">
+                        <thead> <tr><td>Quantity</td><td>Component</td><td>Description</td></tr></thead>
+                        <tbody>
+                            <tr><td>1</td><td>74LS90 IC</td><td>Binary-Coded-Decimal Counter</td></tr>
+                            <tr><td>1</td><td>555 Timer</td><td>An Oscillator IC being used in monostable mode to debounce a push-button in this circuit</td></tr>
+                            <tr><td>1</td><td>SPST Push-Button Switch</td><td>Used to Increment Counter</td></tr>
+                            <tr><td>5</td><td>3V LED</td><td>Lights to Display Output in Binary</td></tr>
+                            <tr><td>1</td><td>0.1μf Capacitor</td><td>Discharge Capacitor for 555 Timer/Debounce Circuit. C in t = RC</td></tr>
+                            <tr><td>1</td><td>1000000Ω Resistor</td><td>Pull-Up Resistor for 555 Timer. R in t = RC</td></tr>
+                            <tr><td>1</td><td>1000Ω Resistor</td><td>Pull-Up Resistor for Push-Button Trigger</td></tr>
+                            <tr><td>2</td><td>100Ω Resistor</td><td>Current-Limiting Resistor for LED</td></tr>
+                            <tr><td>1</td><td>BB400</td><td>400 Tie-Point Solderless Plug-in Breadboard</td></tr>
+                            <tr><td>Various</td><td>Breadboard Jumpers</td><td>90° Pre-Bent Jumper Wires that Plug into Breadboard nicely</td></tr>
+                        </tbody>
+                    </table>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col card w-nomin gradient-diag-bright text-body m-1">
+                                <div class="card-header"><a href="/img/BCD-Counter-Circuit-Diagram.png"><img class="img-fluid pic-sm-h shadow" src="/img/BCD-Counter-Circuit-Diagram.png" alt="Circuit Diagram of Binary Coded Decimal Counter"/></a></div>
+                                <div class="card-body p-2"><cite><small>Circuit Diagram</small></cite></div>
+                            </div>
+                            <div class="col card w-nomin gradient-diag-bright text-body m-1">
+                                <div class="card-header"><a href="/img/BCD-Counter-Overview-sm.jpg"><img class="img-fluid pic-sm-h shadow" src="/img/BCD-Counter-Overview-sm.jpg" alt="Top Down Picture of Binary Coded Decimal Counter Circuit built on Solderless Plug-In Breadboard" /></a></div>
+                                <div class="card-body p-2"><cite><small>Top-Down of Finished Circuit</small></cite></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row jumbotron gradient-diag m-0 mb-3 p-3 text-center" hidden>
+                <h2 class="col pl-4 pt-0 mt-0 text-left">Template Project Post</h2>
+                <div class="col-lg-12">
+                    Short Project Description<br />
+                    <div class="col card w-nomin gradient-diag-bright text-body my-2">
+                        <div class="card-header"><img class="img-fluid pic-md-h shadow" src="/img/BCD-Counter-LEDs-sm.jpg" alt="One of Four Green LEDs lit up; the rightmost one. Shows Example of Circuit in Action" />Main Project Image</div>
+                        <div class="card-body p-2"><cite><small>caption</small></cite></div>
+                    </div>
+                </div>
+                <span class="jumbotron w-100 gradient-diag-bright text-left text-body py-2">About the project</span>
+                <div class="col card gradient-diag-dark m-0 p-3">
+                    <div class="badge badge-secondary mb-3"><h3 class="text-white">Materials</h3></div>
+                    <table class="table table-dark table-striped">
+                        <thead>
+                            <tr>
+                                <td>Quantity</td>
+                                <td>Component</td>
+                                <td>Description</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Example Component 1</td>
+                                <td>A Demonstration of This Style Layout</td>
+                            </tr>
+                            <tr>
+                                <td>3</td>
+                                <td>Example Component 2</td>
+                                <td>A Demonstration of This Layout, In Action</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="col-lg-12">
+                        <div class="row">
+                            <div class="col card w-nomin gradient-diag-bright text-body m-1">
+                                <div class="card-header"><img class="img-fluid pic-sm-h shadow" src="/img/lens-high-sm.jpg" /></div>
+                                <div class="card-body p-2"><cite><small>I'm on a rock</small></cite></div>
+                            </div>
+                            <div class="col card w-nomin gradient-diag-bright text-body m-1">
+                                <div class="card-header"><img class="img-fluid pic-sm-h shadow" src="/img/lens-yeah.jpg" /></div>
+                                <div class="card-body p-2"><cite><small>Watch where you walk</small></cite></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--jQuery, Popper.js, Bootstrap.js-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
