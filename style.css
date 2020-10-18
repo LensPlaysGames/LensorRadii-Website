@@ -1,17 +1,29 @@
-﻿.gradient {
-    background: linear-gradient(90deg, rgb(108, 117, 125) 0%, rgb(52, 58, 64) 100%);
+﻿h1 {
+    font-size: 3rem;
 }
 
-.gradient-vert {
-    background: linear-gradient(180deg, rgb(98, 107, 115) 0%, rgb(56, 62, 72) 100%);
+.card {
+    min-width: 300px;
 }
 
-.gradient-vert-bright {
-    background: linear-gradient(180deg, rgb(200, 209, 217) 0%, rgb(160, 169, 177) 100%);
+.gradient-side {
+    background: linear-gradient(90deg, rgb(108, 117, 125) 0%, rgb(51, 61, 69) 100%);
 }
 
-.gradient-vert-dark {
-    background: linear-gradient(180deg, rgb(56, 62, 72) 50%, rgb(33, 33, 33) 100%);
+.gradient-side-dark {
+    background: linear-gradient(90deg, rgb(56, 62, 72) 0%, rgb(15, 25, 33) 100%);
+}
+
+.gradient-diag {
+    background: linear-gradient(135deg, rgb(82, 92, 100) 0%, rgb(56, 62, 72) 100%);
+}
+
+.gradient-diag-bright {
+    background: linear-gradient(135deg, rgb(200, 209, 217) 0%, rgb(160, 169, 177) 100%);
+}
+
+.gradient-diag-dark {
+    background: linear-gradient(135deg, rgb(56, 62, 72) 50%, rgb(33, 33, 33) 100%);
 }
 
 .gradient-side-black {
@@ -43,4 +55,20 @@
 
 .jumbotron-sm {
     max-width: 480px;
+}
+
+@media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 359px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
 }
